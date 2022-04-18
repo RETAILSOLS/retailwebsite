@@ -1,0 +1,82 @@
+.nav-pills-custom .nav-link {
+    color: #00adef;
+    background: #fff;
+    position: relative;
+    font-size: 16px;
+}
+
+.nav-pills-custom .nav-link.active {
+    color: #ffffff;
+    background: #00adef;
+}
+
+
+/* Add indicator arrow for the active tab */
+@media (min-width: 992px) {
+    .nav-pills-custom .nav-link::before {
+        content: '';
+        display: block;
+        border-top: 8px solid transparent;
+        border-left: 10px solid #00adef;
+        border-bottom: 8px solid transparent;
+        position: absolute;
+        top: 50%;
+        right: -10px;
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+}
+
+.nav-pills-custom .nav-link.active::before {
+    opacity: 1;
+}
+
+.service-item-three {
+    padding: 15px 20px 50px;
+
+}
+
+
+.service-item-three .title {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.service-item-three .icon {
+    margin-bottom: 8px;
+}
+
+
+
+ p {
+    line-height: 23px;
+    font-size: 15px;
+    text-align: left;
+}
+
+
+.minheight{
+    min-height: 323px !important;
+}
+
+.minheight2{
+    min-height: 350px !important;
+}
+
+.list-item{
+    color: #00adef;
+}
+
+.headings{
+    font-size: 60px;
+}
+
+
+
+.sticky1 {
+    position: fixed;
+    top: 118px;
+    z-index: 9999;
+  }
+
+

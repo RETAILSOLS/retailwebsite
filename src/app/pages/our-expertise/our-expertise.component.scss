@@ -1,0 +1,86 @@
+.service-item-three {
+    padding: 15px 20px 50px;
+}
+
+p {
+    // line-height: 23px;
+    // font-size: 15px;
+    // text-align: left;
+    line-height: 22px;
+    font-size: 14px;
+    text-align: left;
+    padding-top: 10px;
+}
+.intro-video-area::before {
+	background-color: #fff !important;
+}
+
+.intro-video-area{
+    padding-top: 0px !important;
+}
+
+.testimonial-box-two .testimonial-inner .content .name {
+    margin-bottom: 0px !important;
+}
+
+.position{
+    font-size: 13px;
+}
+
+
+.service-item-four .services-content .service-link {
+    font-weight: 700;
+    color: #232323;
+    line-height: 50px;
+    padding: 0 30px;
+    border: 3px solid #0c59db;
+    border-radius: 5px;
+    margin-top: 37px;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    position: relative;
+    z-index: 1;
+}
+
+.modalhead{
+    line-height: 10px;
+    text-align: center;
+    font-size: 21px;
+    padding: 10px;
+}
+
+.socialicons{
+    width: 18%;
+    margin: 0px auto;
+}
+
+.bdr{
+    border-top: 1px solid #dee2e6;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .section-gap {
+        padding-top: 35px;
+        padding-bottom: 0px;
+    }
+    .intro-video-area {
+        padding-top: 1px;
+        padding-bottom: 25px;
+    }
+    .mb-80 {
+        margin-bottom: 23px;
+    }
+
+    .mt-md-gap-60 {
+        margin-top: 1px !important;
+    }
+
+    .page-title-area .title {
+        font-size: 24px;
+    }
+    .testimonials-arrow {
+        text-align: center;
+    }
+}

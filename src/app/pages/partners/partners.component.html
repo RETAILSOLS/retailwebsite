@@ -1,0 +1,164 @@
+
+
+<!--====== Page Title start ======-->
+<!-- <section class="page-title-area">
+<div class="container-fluid container-1470">
+<h2 class="title">BE A PARTNER WITH US </h2>
+<ul class="breadcrumb-nav">
+<li><a [routerLink]="['/']">Home</a></li>
+<li class="active">About</li>
+</ul>
+</div>
+</section>
+        -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="text-center-">
+                    <span data-animation="fadeInUp" data-delay="0.3s" class="title-tag partnrtitle" >
+                        PARTNER WITH US
+                    </span>
+                    <h2 class="title- mt-4 headings" style="font-size: 60px;">Join the BlockCATS <br> <span style="color: #00adef;">Partner Program</span> </h2>
+                    <a data-animation="fadeInUp" data-delay="1.1s" class="main-btn rounded-btn icon-right small-size mt-3" >
+                        APPLY NOW<i class="fal fa-long-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <img src="assets/img/partnerimg.svg" height="300">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--====== Page Title End ======-->
+
+    <!--====== Contact Section Start ======-->
+    <section class="conatct-section section-gap mt-80">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-title white-color text-center mb-60">
+                        <h2 class="title11 headings text-white">Join Us To Get Free Consultations</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-area wow fadeInUp" data-wow-delay="0.3s">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="contact-thumb mb-md-gap-50">
+                            <img src="assets/img/contact-us.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="contact-form">
+                            <form action="#">
+                                <h3 class="form-title headings">Don't Hesitate To Be a Partner With Us, Say Hello......</h3>
+                                <div class="row mt-3">
+                                    <div class="form-group col-md-6">
+                                        <label >Full Name<span class="required">*</span></label>
+                                        <input type="text" class="form-control inputstyle" placeholder="Full Name">
+                                        <!-- <div class="invalid_feedback" *ngIf="Submitted_Sign && signupform.get('fullname').hasError('required')">
+                                          Full Name is required</div> -->
+                                      </div>
+
+
+                                      <div class="form-group col-md-6">
+                                        <label >Email <span class="required">*</span></label>
+                                        <input type="text" class="form-control inputstyle" placeholder="Email">
+                                        <!-- <div class="invalid_feedback" *ngIf="Submitted_Sign && signupform.get('email_1').hasError('required')">
+                                          Email is required</div>
+                                        <div class="invalid_feedback" *ngIf="Submitted_Sign && signupform.get('email_1').hasError('pattern')">
+                                          Email must be a valid email address</div> -->
+                                      </div>
+
+                                    <div class="form-group col-md-6">
+                                        <label>Mobile Number <span class="required">*</span></label>
+                                        <input type="text" class="form-control inputstyle" placeholder="Mobile"  maxlength='15'>
+                                        <!-- <div class="invalid_feedback" *ngIf="Submitted_Sign && signupform.get('mobile').hasError('required')">
+                                          Mobile Number is required.</div>
+                                        <div class="invalid_feedback" *ngIf="Submitted_Sign && signupform.get('mobile').hasError('pattern')">
+                                          Invalid Mobile Number!</div> -->
+                                      </div>
+
+                                      <div class="form-group col-md-6">
+                                        <label>Company Name <span class="required">*</span></label>
+                                        <input type="text" class="form-control inputstyle" placeholder="Company Name">
+                                        <!-- <div class="invalid_feedback" *ngIf="Submitted_Sign && signupform.get('fullname').hasError('required')">
+                                          Full Name is required</div> -->
+                                      </div>
+
+
+                                    <div class="form-group col-md-6">
+                                        <label >Company Type <span class="required">*</span></label>
+                                        <ng-multiselect-dropdown [settings]="SDDL" [placeholder]="'Company Type'" [data]="Company_Type">
+                                        </ng-multiselect-dropdown>
+                                    </div>
+
+                                    <!-- <div class="col-lg-6">
+                                        <div class="input-group mt-30">
+                                            <input type="text" placeholder="Your motivation to join Blockcats...">
+                                            <span class="icon"><i class="fal fa-edit"></i></span>
+                                        </div>
+                                    </div> -->
+
+                                    <div class="form-group col-md-6">
+                                        <label >Motivation to join Blockcats <span class="required">*</span></label>
+                                        <input type="text" class="form-control inputstyle" placeholder="Your motivation to join Blockcats...">
+                                        <!-- <div class="invalid_feedback" *ngIf="Submitted_Sign && signupform.get('fullname').hasError('required')">
+                                          Full Name is required</div> -->
+                                      </div>
+
+                                    <div class="col-lg-12 mt-3">
+                                        <div class="row ">
+                                            <div class="col-lg-12 para2">
+                                                <b class="head2"> Are you interested in becoming an Authorised reseller for BlockCATS? <span class="required">*</span></b>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <input #saveUserNameCheckBox id="saveUserNameCheckBox" type="checkbox" />
+                                                Yes
+                                            </div>
+
+                                            <div class="col-lg-10">
+                                                <input #saveUserNameCheckBox id="saveUserNameCheckBox" type="checkbox" />
+                                                No
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12 mt-3">
+                                        <div class="row ">
+                                            <div class="col-lg-12 para2">
+                                                <b class="head2"> BlockCATS may use the contact information you provide to us to contact you about our products and
+                                                services. By clicking “submit” below you consent to receive such communications. You may
+                                                unsubscribe from these communications at any time.<span class="required">*</span></b>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <input #saveUserNameCheckBox id="saveUserNameCheckBox" type="checkbox" />
+                                                I accept
+                                            </div>
+
+                                            <div class="col-lg-10">
+                                                <input #saveUserNameCheckBox id="saveUserNameCheckBox" type="checkbox" />
+                                                I don't accept
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-12 text-center">
+                                        <div class="input-group textarea-group mt-30">
+                                            <button class="main-btn small-size rounded-btn icon-right">Send Message <i class="fal fa-long-arrow-right"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="conatct-one-bg" style="background-image: url(assets/img/contact-bg.jpg)"></div>
+    </section>
+    <!--====== Contact Section End ======-->
